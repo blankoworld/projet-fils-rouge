@@ -21,7 +21,7 @@
         state: absent
     - name: upload code
       copy:
-        src: /home/ubuntu/02_ansible/website/
+        src: /home/ubuntu/projet-fils-rouge/02_ansible/website/
         dest: /var/www/html/
     - name: restart service
       service:
